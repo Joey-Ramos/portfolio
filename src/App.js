@@ -14,13 +14,13 @@ function App() {
         <h4>Joey Ramos</h4>
       </div>
       <div className="icons">
-        <a className="logo">
+        <a href="mailto:jramos1202@gmail.com" className="logo">
           <img src={emailIcon} alt="Logo" />
         </a>
-        <a className="logo">
+        <a href="https://www.linkedin.com/in/joseph-ramos-8630031aa/" className="logo">
           <img src={linkedinIcon} alt="Logo" />
         </a>
-        <a className="logo">
+        <a href="https://github.com/Joey-Ramos" className="logo">
           <img src={githubIcon} alt="Logo" />
         </a>
       </div>
