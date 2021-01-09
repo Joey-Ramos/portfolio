@@ -1,8 +1,8 @@
 import React from 'react';
-import profile from '../../Assets/images/profile.jpg';
-import emailIcon from '../../Assets/icons/emailicon2.png';
-import linkedinIcon from '../../Assets/icons/linkedinicon2.png';
-import githubIcon from '../../Assets/icons/githubicon4.png';
+import profile from '../../assets/images/profile.jpg';
+import emailIcon from '../../assets/icons/emailicon2.png';
+import linkedinIcon from '../../assets/icons/linkedinicon2.png';
+import githubIcon from '../../assets/icons/githubicon4.png';
 
 function Header() {
 
