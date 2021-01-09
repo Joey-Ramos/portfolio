@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import profile from './Assets/Images/profile.jpg';
+import emailIcon from './Assets/Icons/emailicon2.png';
+import linkedinIcon from './Assets/Icons/linkedinicon2.png';
+import githubIcon from './Assets/Icons/githubicon4.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="header">
+      <div className="profile-image">
+        <img className="profile-pic" src={profile} alt="Avatar" width="100px" height="100px" />
+      </div>
+      <div className="name">
+        <h4>Joey Ramos</h4>
+      </div>
+      <div className="icons">
+        <a className="logo">
+          <img src={emailIcon} alt="Logo" />
         </a>
-      </header>
+        <a className="logo">
+          <img src={linkedinIcon} alt="Logo" />
+        </a>
+        <a className="logo">
+          <img src={githubIcon} alt="Logo" />
+        </a>
+      </div>
     </div>
+    
+   
   );
 }
 
