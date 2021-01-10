@@ -1,5 +1,6 @@
 body {
     background-image: url(./assets/images/345330.jpg);
+    font-family: 'Open Sans';
 }
 
 /* HEADER STYLING */
@@ -34,3 +35,32 @@ body {
     line-height: 50px;
 }
 /* ///// END LINKS STYLING ///// */
+
+/* PROJECTS STYLING */
+.projects {
+    text-align: center;
+    color: white;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.733);
+    color: black;
+    border-radius: 30px;
+    margin: 3rem;
+}
+
+.project-image-container {
+    padding-top: 10px;
+}
+
+.project-image {
+    border-radius: 5%;
+}
+
+.project-title {
+    line-height: 5px;
+}
+
+.project-description {
+    font-weight: bold;
+}
