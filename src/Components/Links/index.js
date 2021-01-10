@@ -4,15 +4,15 @@ import React from 'react'
 
 function Links() {
     return (
-        <div>
-            <div>
-                <a>About Me</a>
+        <div className="links-list">
+            <div className="links">
+                <p>About Me</p>
             </div>
-            <div>
-                <a>Projects</a>
+            <div className="links">
+                <p>Projects</p>
             </div>
-            <div>
-                <a>Contact Me</a>
+            <div className="links">
+                <p>Contact Me</p>
             </div>
         </div>
         

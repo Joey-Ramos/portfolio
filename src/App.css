@@ -2,6 +2,7 @@ body {
     background-image: url(./assets/images/345330.jpg);
 }
 
+/* HEADER STYLING */
 .header {
     padding-top: 35px;
     text-align: center;
@@ -17,3 +18,19 @@ body {
 .logo {
     padding: 0.25rem;
 }
+/* ///// END HEADER STYLING ///// */
+
+/* LINKS STYLING */
+.links-list {
+    text-align: center;
+    margin: 20px;
+}
+
+.links {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 100px;
+    margin: 20px;
+    line-height: 50px;
+}
+/* ///// END LINKS STYLING ///// */
