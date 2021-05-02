@@ -6,7 +6,9 @@ function About() {
 
 
     return (
-        <h1>About Me</h1>
+        <div className='about'>
+            <h1 className='about-title'>About Me</h1>
+        </div>
     )
 }
 

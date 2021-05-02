@@ -1,6 +1,8 @@
 body {
-    background-image: url(./assets/images/345330.jpg);
+    background-size: cover;
+    background-position: center center;
     font-family: 'Open Sans';
+    background-color: #222831;
 }
 
 /* HEADER STYLING */
@@ -24,14 +26,14 @@ body {
 /* LINKS STYLING */
 .links-list {
     text-align: center;
-    margin: 20px;
 }
 
 .links {
     height: 50px;
+    max-width: 500px;
     background-color: rgba(255, 255, 255, 0.733);
     border-radius: 100px;
-    margin: 20px;
+    margin: 0 auto;
     line-height: 50px;
 }
 /* ///// END LINKS STYLING ///// */
@@ -46,7 +48,8 @@ body {
     background-color: rgba(255, 255, 255, 0.733);
     color: black;
     border-radius: 30px;
-    margin: 3rem;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 .project-image-container {
@@ -65,3 +68,38 @@ body {
     font-weight: bold;
 }
 /* ///// END PROJECTS STYLING ///// */
+
+/* CONTACT STYLING */
+.contact-title {
+    text-align: center;
+    color: white;
+}
+/* ///// END CONTACT STYLING ///// */
+
+/* START ABOUT ME STYLING */
+.about-title {
+    text-align: center;
+    color: white;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  
+   
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* MEDIA QUERY FOR PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .links {
+        margin: 20px
+    }
+
+    .project {
+        margin: 20px;
+    }
+}

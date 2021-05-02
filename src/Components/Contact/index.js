@@ -6,8 +6,8 @@ function Contact() {
 
 
     return (
-        <div>
-            <h1>Contact Me</h1>
+        <div className="contact">
+            <h1 className="contact-title">Contact Me</h1>
         </div>
     )
 }
