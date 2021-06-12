@@ -32,7 +32,7 @@ body {
     height: 50px;
     max-width: 500px;
     background-color: rgba(255, 255, 255, 0.733);
-    border-radius: 100px;
+    border-radius: 5px;
     margin: 0 auto;
     line-height: 50px;
 }
@@ -54,7 +54,7 @@ body {
 .project {
     background-color: rgba(255, 255, 255, 0.733);
     color: black;
-    border-radius: 30px;
+    border-radius: 5px;
     margin: 0 auto;
     max-width: 500px;
 }
