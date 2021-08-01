@@ -1,7 +1,7 @@
 import React from 'react';
-import callItANight from '../../assets/images/callitanight.png';
-import readingNook from '../../assets/images/the-reading-nook.png';
-import movieLot from '../../assets/images/movielot.png';
+// import callItANight from '../../assets/images/callitanight.png';
+// import readingNook from '../../assets/images/the-reading-nook.png';
+// import movieLot from '../../assets/images/movielot.png';
 
 
 function Project() {
@@ -15,7 +15,7 @@ function Project() {
                 <div className="project">
                     <div className="project-image-container">
                         <a href="https://christopherconcannon.github.io/call-it-a-night/">
-                            <img className="project-image" src={callItANight} alt="project-cover" height="175" width="250"/>
+                            {/* <img className="project-image" src={callItANight} alt="project-cover" height="175" width="250"/> */}
                         </a>
                     </div>
                     <h3 className="project-title">Call It A Night</h3>
@@ -26,7 +26,7 @@ function Project() {
                 <div className="project">
                     <div className="project-image-container">
                         <a href="https://movielot.herokuapp.com/">
-                            <img className="project-image" src={movieLot} alt="project-cover" height="175" width="250"/>
+                            {/* <img className="project-image" src={movieLot} alt="project-cover" height="175" width="250"/> */}
                         </a>
                     </div>
                     <h3 className="project-title">Movie Lot</h3>
@@ -37,7 +37,7 @@ function Project() {
                 <div className="project">
                     <div className="project-image-container">
                         <a href="https://thereadingnook.herokuapp.com/">
-                            <img className="project-image" src={readingNook} alt="project-cover" height="175" width="250"/>
+                            {/* <img className="project-image" src={readingNook} alt="project-cover" height="175" width="250"/> */}
                         </a>
                     </div>
                     <h3 className="project-title">The Reading Nook</h3>

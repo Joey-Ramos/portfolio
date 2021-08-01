@@ -6,21 +6,7 @@ body {
 }
 
 /* HEADER STYLING */
-.header {
-    padding-top: 35px;
-    text-align: center;
-}
 
-.name {
-    color: rgb(255,255,255);
-}
-.profile-pic {
-    border-radius: 50%;
-}
-
-.logo {
-    padding: 0.25rem;
-}
 /* ///// END HEADER STYLING ///// */
 
 /* LINKS STYLING */
@@ -41,7 +27,7 @@ body {
 /* PROJECTS STYLING */
 .projects {
     text-align: center;
-    color: white;
+    /* color: white; */
 }
 
 .project-wrapper {
@@ -79,14 +65,14 @@ body {
 /* CONTACT STYLING */
 .contact-title {
     text-align: center;
-    color: white;
+    /* color: white; */
 }
 /* ///// END CONTACT STYLING ///// */
 
 /* START ABOUT ME STYLING */
 .about-title {
     text-align: center;
-    color: white;
+    /* color: white; */
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
