@@ -2,12 +2,15 @@ body {
     background-size: cover;
     background-position: center center;
     font-family: 'Open Sans';
-    background-color: #222831;
+    background-color: #222831 !important;
 }
 
-/* HEADER STYLING */
-
-/* ///// END HEADER STYLING ///// */
+/* HOME PAGE STYLING */
+.home-title {
+    text-align: center;
+    color: white;
+}
+/* ///// END HOME PAGE STYLING ///// */
 
 /* LINKS STYLING */
 .links-list {
@@ -27,52 +30,25 @@ body {
 /* PROJECTS STYLING */
 .projects {
     text-align: center;
-    /* color: white; */
+    color: white;
 }
 
-.project-wrapper {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-}
-
-.project {
-    background-color: rgba(255, 255, 255, 0.733);
-    color: black;
-    border-radius: 5px;
-    margin: 0 auto;
-    max-width: 500px;
-}
-
-.project-image-container {
-    padding-top: 10px;
-}
-
-.project-image {
-    border-radius: 5%;
-}
-
-.project-title {
-    line-height: 5px;
-}
-
-.project-description {
-    font-weight: bold;
+.project-card {
+    margin: 2rem !important;
 }
 /* ///// END PROJECTS STYLING ///// */
 
 /* CONTACT STYLING */
 .contact-title {
     text-align: center;
-    /* color: white; */
+    color: white;
 }
 /* ///// END CONTACT STYLING ///// */
 
 /* START ABOUT ME STYLING */
 .about-title {
     text-align: center;
-    /* color: white; */
+    color: white;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */

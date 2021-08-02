@@ -7,7 +7,7 @@ function About() {
 
     return (
         <div>
-            <h1>About Me</h1>
+            <h1 className='about-title'>About Me</h1>
         </div>
     )
 }
