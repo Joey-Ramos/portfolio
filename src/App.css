@@ -12,21 +12,6 @@ body {
 }
 /* ///// END HOME PAGE STYLING ///// */
 
-/* LINKS STYLING */
-.links-list {
-    text-align: center;
-}
-
-.links {
-    height: 50px;
-    max-width: 500px;
-    background-color: rgba(255, 255, 255, 0.733);
-    border-radius: 5px;
-    margin: 0 auto;
-    line-height: 50px;
-}
-/* ///// END LINKS STYLING ///// */
-
 /* PROJECTS STYLING */
 .projects {
     text-align: center;
@@ -49,35 +34,4 @@ body {
 .about-title {
     text-align: center;
     color: white;
-}
-
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 1200px) {
-  .project-wrapper {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-row-gap: 10px;
-  }
-}
-
-@media screen and (max-width: 980px) {
-    .project-wrapper {
-        display: inline;
-    }
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-    
-}
-
-/* MEDIA QUERY FOR PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-    .links {
-        margin: 20px
-    }
-
-    .project {
-        margin: 20px;
-    }
 }
